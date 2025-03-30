@@ -267,7 +267,15 @@ body {
 
 .imagesInProject {
   display: grid;
-  grid-template-columns: 500px 500px 500px;
+  grid-template-columns: 450px 450px 450px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.imagesInProject2 {
+  display: grid;
+  grid-template-columns: 1300px;
   justify-content: center;
   align-items: center;
   column-gap: 60px;
@@ -275,6 +283,7 @@ body {
 
 .imgInProjectContainer {
   border-radius: 15px;
+  transform: scale(0.8);
 }
 
 .programmingLanguages {
@@ -330,5 +339,9 @@ body {
 }
 
 #stud {
-  margin-top: 40px;
+  margin-top: 200px;
+}
+
+#proj {
+  margin-top: 200px;
 }
